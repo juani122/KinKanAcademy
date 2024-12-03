@@ -1,0 +1,21 @@
+const steps = {
+    Programación: [
+        "Elige un lenguaje: <select id='language'><option>Python</option><option>Java</option></select>"
+    ],
+    Redes: [
+        "Elige temas: <select id='network-topics'><option>LAN/WAN</option><option>Protocolos</option><option>Monitoreo</option></select>"
+    ],
+    Ciberseguridad: [
+        `
+        <h4>Elige áreas de enfoque:</h4>
+        <select id='cyber-topics'>
+            <option>Pentesting y Hacking Ético</option>
+            <option>Seguridad en la Nube</option>
+            <option>Forense Digital</option>
+            <option>Seguridad en Aplicaciones Web</option>
+            <option>Gestión de Incidentes y Respuesta</option>
+            <option>Criptografía y Blockchain</option>
+        </select>
+        `
+    ]
+};

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria el amor</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #0F2449;
+        }
+        .titulo {
+            background-color:#344C64;
+            padding: 30px;
+            color: white;
+            text-align: center;
+        }
+        .nav {
+            margin: 0;
+            padding: 10px;
+            background-color: #344C64;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+            margin:auto;
+        }
+        nav a:hover {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            border-radius: 5%;
+        }
+        .main {
+            display: grid;
+            grid-template-columns: 1fr 3fr; /* Aside ocupa 1 parte, secciones ocupan 3 partes */
+            gap: 20px;
+            padding: 20px;
+            background-color: #0F2449;
+        }
+        aside {
+            background-color: rgb(77, 72, 72);
+            color: white;
+            padding: 20px;
+        }
+        section {
+            background-color: #D4EBF8;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .imagen-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        img.hola {
+            width: 210px;
+            height: 200px;
+        }
+        .negrita {
+            font-weight: bold;
+            color: rgb(0, 0, 0); 
+            font-size: 20px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">KinKan Academy</h1>
+    </header>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main class="main">
+        <aside>
+            <h2>Promociones</h2>
+            <p>Tenemos descuentos de black friday en nuestro ebook de pago a un <span class="negrita">100% de descuento</span> solo por el 
+                día 29 de noviembre
+            </p>
+        </aside>
+
+        <div>
+            <section>
+                <h2>Cursos y servicios</h2>
+                <p>Explora nuestras opciones de formación y servicios personalizados en la sección de servicios,
+                    solo debes enviar un formulario y se te dará acceso a nuestro catálogo de cursos
+                </p>
+            </section>
+
+            <section>
+                <h3>Ebooks y videotutoriales</h3>
+                <p>Sino quieres invertir, también en la sección de servicios ofrecemos libros digitales y 
+                videotutoriales en nuestro canal de Youtube y cuenta de tiktok    
+                </p>
+            </section>
+
+            <section class="imagen-container">
+                <img class="hola" src="logooficial.png" alt="Logo de la empresa">
+            </section>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - KinKan Academy</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #0F2449;
+        }
+        .titulo {
+            background-color: #344C64;
+            padding: 30px;
+            color: white;
+            text-align: center;
+        }
+        .nav {
+            margin: 0;
+            padding: 10px;
+            background-color: #344C64;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+            margin: auto;
+        }
+        nav a:hover {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            border-radius: 5%;
+        }
+        .services-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #0F2449;
+        }
+        .service-box {
+            background-color: #D4EBF8;
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .service-box h3 {
+            margin-bottom: 15px;
+            color: rgb(34, 102, 102);
+        }
+        .service-box p {
+            color: rgb(60, 60, 60);
+            font-size: 14px;
+        }
+        .cursoscss {
+            background-color: #FF7F00; 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .cursoscss:hover {
+            background-color: #0F2449;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">KinKan Academy</h1>
+    </header>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <section class="services-section">
+        <div class="service-box">
+            <h3>Cursos</h3>
+            <p>Accede a nuestros cursos especializados de pago y amplía tus conocimientos con nuestra promoción de black friday</p>
+            <a href="http://localhost/KinKanAcademy/index2.html" target="_blank"><button class="cursoscss">Cursos</button></a>
+        </div>
+        <div class="service-box">
+            <h3>Ebooks</h3>
+            <p>Descubre nuestros ebooks gratuitos y de pago con contenido exclusivo para tu aprendizaje.</p>
+            <iframe src="introducción a redes - KinKan Academy.pdf" width="100%" height="600px"></iframe>
+        </div>
+        <div class="service-box">
+            <h3>Videotutoriales</h3>
+            <p>Accede a nuestro canal de Youtube para acceder a nuestros videotutoriales</p>
+            <iframe width="360" height="215" src="https://www.youtube.com/embed/REMlSgb0naM" 
+             title="Bienvenida al canal - KinKan Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <iframe width="360" height="215" src="https://www.youtube.com/embed/02-gZKft7KI&t=18s"
+             title="Top 10 mejores atajos para Windows 10 2022 - KinKan Academy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+</body>
+</html>
+
+

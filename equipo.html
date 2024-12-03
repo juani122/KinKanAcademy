@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria el amor</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #0F2449;
+        }
+        .titulo {
+            background-color: #344C64;
+            padding: 30px;
+            color: white;
+            text-align: center;
+        }
+        .nav {
+            margin: 0;
+            padding: 10px;
+            background-color: #344C64;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+            margin: auto;
+        }
+        nav a:hover {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            border-radius: 5%;
+        }
+        .about-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #0F2449;
+        }
+        .about-box {
+            display: flex;
+            background-color: #D4EBF8;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 45%;
+            align-items: center;
+            border-radius: 10px;
+        }
+        .about-box img {
+            width: 200px;
+            height: 250px;
+            border-radius: 10%;
+            margin-left: 20px;
+        }
+        .about-box .text {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">KinKan Academy</h1>
+    </header>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <!-- Sección "Acerca de los creadores" -->
+    <section class="about-section">
+        <div class="about-box">
+            <div class="text">
+                <h3>Juan Zetina</h3>
+                <p>Soy una persona que le gusta hacer mucho ejercicio físico teniendo un estilo de vida
+                    saludable, buscando siempre crear nuevos emprendimientos como armwrestling pamama o 
+                    KinKan Academy. 
+                </p>
+            </div>
+            <img src="juan.jfif" alt="Foto de Juan Zetina">
+        </div>
+        <div class="about-box">
+            <div class="text">
+                <h3>Samuel Mejía</h3>
+                <p>Mi nombre es Samuel Mejía soy un estudiante de la Universidad Tecnológica de Panamá, 
+                Me considero una persona tranquila, con principios cristianos y me gusta mucho cantar, 
+                jugar fútbol y todo lo relacionado con la informática, especialmente en el ámbito de la 
+                ciberseguridad.</p>
+            </div>
+            <img src="Samuel.jpg" alt="Foto de Samuel Mejía">
+        </div>
+    </section>
+</body>
+</html>

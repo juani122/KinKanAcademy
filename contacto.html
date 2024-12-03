@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria el amor</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #0F2449;
+        }
+        .titulo {
+            background-color: #344C64;
+            padding: 30px;
+            color: white;
+            text-align: center;
+        }
+        .nav {
+            margin: 0;
+            padding: 10px;
+            background-color:#344C64;
+            display: flex;
+            justify-content: space-around;
+            
+            
+        }
+        nav a {
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+            margin:auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        }
+        nav a:hover {
+            background-color: white;
+            color: black;
+            padding: 20px;
+            border-radius: 5%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        }
+        .main {
+            display: grid;
+            grid-template-columns: 3fr 2fr; 
+            gap: 20px;
+            padding: 20px;
+            background-color: #0F2449;
+        }
+        aside {
+            background-color: #D4EBF8;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            border-radius: 5%;
+            order: 2;
+            height: 200px;
+        }
+        section {
+            background-color: #D4EBF8;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            order: 1;
+        }
+        img.hola {
+            width: 200px;
+            height: 200px;
+        }
+        .boton {
+            background-color: #FF7F00; 
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .boton:hover {
+            background-color: #0F2449;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">KinKan Academy</h1>
+    </header>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main class="main">
+        <aside>
+            <h2>Canal de Youtube</h2>
+            <p>Tenemos canal de Youtube, en el cual podras encontrar material educativo totalmente gratis, 
+                video tutoriales, consejos del manejo del computador, entre otras cosas...
+            </p>
+            <a href="https://www.youtube.com/@kinkanacademy" target="_blank"><button class="boton">Ir a Youtube</button></a>
+        </aside>
+
+        <div>
+            <section>
+                <h2>Cuenta de Instagram</h2>
+                <p>Explora nuestras publicaciones interactivas y chequea algunas fotos...</p>
+                <a href="https://www.instagram.com/KinKanAcademy" target="_blank">
+                    <button class="boton">Ir a Instagram</button>
+                </a>
+            </section>
+
+            <section>
+                <h3>Cuenta de tiktok</h3>
+                <p>¿Quieres ver videos cortos, concisos y claros? Aquí los tienes...</p>
+                <a href="https://www.tiktok.com/@KinKan.Academy" target="_blank">
+                    <button class="boton">Ir a TikTok</button>
+                </a>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
